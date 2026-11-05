@@ -1,0 +1,13 @@
+# Starter configuration; adjust after finalizing the experimental design.
+seed: 42
+dataset:
+  image_size: 64
+  sequence_length: 12
+  num_objects: 1
+  occlusion: true
+model:
+  embedding_dim: 128
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  epochs: 20

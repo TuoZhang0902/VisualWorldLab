@@ -1,0 +1,1 @@
+"""model module — implementation pending."""
